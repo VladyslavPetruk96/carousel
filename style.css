@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.window div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+}
+
+.carousel-image {
+    display: flex;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.btn {
+    padding: 20px;
+    outline: 0;
+    border: 3px solid bisque;
+    border-radius: 50%;
+    background: beige;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-left {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.btn-right {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+
+.radio-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.animation {
+    transition: 0.4s all ease-out;
+}
